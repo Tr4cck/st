@@ -213,6 +213,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_j,           kscrolldown,    {.i =  1} },
 	{ ControlMask,          XK_k,           kscrollup,      {.i = -1} },
 	{ ControlMask,          XK_j,           kscrolldown,    {.i = -1} },
+	{ MODKEY,               XK_l,           copyurl,        {.i =  0} },
 };
 
 /*

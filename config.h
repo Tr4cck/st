@@ -9,6 +9,14 @@ static char *font = "SauceCodeProNerd Font:pixelsize=20:antialias=true:autohint=
 static int borderpx = 2;
 
 /*
+ * background image
+ * expects farbfeld format
+ * pseudo transparency fixes coordinates to the screen origin
+ */
+static const char *bgfile = "/path/to/image.ff";
+static const int pseudotransparency = 0;
+
+/*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
  * 2: scroll and/or utmp
